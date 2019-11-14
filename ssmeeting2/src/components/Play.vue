@@ -46,28 +46,29 @@ export default {
         return [
           {
             id: 0,
-            image: "https://static.runoob.com/images/icon/html.png",
+          
+            image: require("../assets/play/pic.png"),
             names: "5V5",
 
             name: "召唤师峡谷"
           },
           {
             id: 1,
-            image: "https://static.runoob.com/images/icon/html.png",
+             image: require("../assets/play/pic1.png"),
             names: "5V5",
 
             name: "扭曲丛林"
           },
           {
             id: 2,
-            image: "https://static.runoob.com/images/icon/html.png",
+             image: require("../assets/play/pic2.png"),
             names: "5V5",
 
             name: "极地大乱斗"
           },
           {
             id: 3,
-            image: "https://static.runoob.com/images/icon/html.png",
+            image: require("../assets/play/pic3.png"),
             names: "5V5",
             name: "云顶"
           }
@@ -105,7 +106,9 @@ export default {
   margin: 70px 1px 0px 40px;
   text-align: center;
   text-decoration:none;
+  color: #FFFFFF;
 }
+
 .header a h1 {
   font-size: 22px;
 }

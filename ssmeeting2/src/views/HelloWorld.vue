@@ -1,10 +1,11 @@
 
 <template>
-  <div>
-    <HelloWorld :list="elList" :fnoptions="optionsFn" style="float:left;	margin:0px 0px 0px -15px; width:780px;">
+  <div class="index">
+    <HelloWorld class="HelloWorld" :list="elList" :fnoptions="optionsFn" style="float:left;	margin:0px 0px 0px -15px; width:780px;">
       <div slot="0" class="HE">
         <the-all-game :list="gameAllList">
-          <HelloWorldss></HelloWorldss>
+          <!-- <HelloWorldss></HelloWorldss> -->
+              <Homepage></Homepage>
         </the-all-game>
       </div>
       <div class slot="-1">
@@ -12,9 +13,9 @@
           <PLAyss></PLAyss>
         </the-collect>
       </div>
-      <div class slot="1">
+      <div class="" slot="1">
         <the-collect :list="gameCollectList">
-          <Plays></Plays>
+          <shengya class=""></shengya>
         </the-collect>
       </div>
       <div class slot="2">
@@ -38,4 +39,12 @@ $(function() {
 });
 </script>
 <style scoped>
+.index{
+
+  background-color:#ffffff;
+  border:1px solid black;
+  opacity:0.9;
+  filter:alpha(opacity=60); /* IE8 及更早版本 */
+  
+}
 </style>

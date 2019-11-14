@@ -49,4 +49,15 @@ nav{
   width: 100%;
   height: 100%;
 }
+button{
+ /* width: 58px;
+  text-decoration: none;
+  background-color: none; */
+  color: #FFFFFF;
+  /* border-right: 3px solid rgb(13, 45, 190); */
+   background-color: rgb(43, 41, 41);
+  border-right: 1px solid rgb(13, 45, 190);
+  border-left-style: none;
+  border-bottom-style: none;
+  border-top-style: none;}
 </style>

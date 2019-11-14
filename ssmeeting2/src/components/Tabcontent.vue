@@ -1,5 +1,5 @@
 <template>
-  <div class="container" style="width:270px; height:180px; border: 3px solid #73AD21;">
+  <div class="container" style="width:270px; height:180px; ">
     <div class="header" style="width:100%; display: table;">
       <button
         class="title"
@@ -84,4 +84,21 @@ export default {
 };
 </script>
 <style scoped>
+.container{
+ background-color: rgb(75, 68, 68);
+}
+button{
+  width: 58px;
+  text-decoration: none;
+  background-color: none;
+  color: #FFFFFF;
+  /* border-right: 3px solid rgb(13, 45, 190); */
+   background-color: rgb(43, 41, 41);
+  border-right: 1px solid rgb(13, 45, 190);
+  border-left-style: none;
+  border-bottom-style: none;
+  border-top-style: none;
+  
+}
+
 </style>  

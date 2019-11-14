@@ -1,5 +1,5 @@
 <template>
-  <div style="float:left;">
+  <div class="ly" style="float:left;">
     <!-- 搜索框加按钮 -->
     <input
       style="float:left;margin:0px -0px -0px 29px;"
@@ -32,28 +32,28 @@ export default {
       agentlisttwo: "", //搜索重定义数组
       agentlist: [
         {
-          image: "https://static.runoob.com/images/icon/html.png",
+          image: require("../assets/Timg/pic3.png"),
           userID: "1240",
           agentnum: "22",
           username: "小张",
           phone: "1311278"
         },
         {
-          image: "https://static.runoob.com/images/icon/html.png",
+          image: require("../assets/Timg/pic3.png"),
           userID: "1240",
           agentnum: "22",
           username: "小张",
           phone: "1311278"
         },
         {
-          image: "https://static.runoob.com/images/icon/html.png",
+          image: require("../assets/Timg/pic3.png"),
           userID: "1240",
           agentnum: "22",
           username: "小张",
           phone: "1311278"
         },
         {
-          image: "https://static.runoob.com/images/icon/html.png",
+          image: require("../assets/Timg/pic3.png"),
           userID: "1241",
           agentnum: "23",
           username: "老王",
@@ -92,12 +92,38 @@ export default {
 </script>
  
 <style scoped>
+input {
+  text-decoration: none;
+  background-color: none;
+  color: #ffffff;
+  /* border-right: 3px solid rgb(13, 45, 190); */
+  background-color: rgb(59, 40, 128);
+  border-right: 1px solid #FFFFFF(13, 45, 190);
+  border-left-style: none;
+  border-bottom-style: none;
+  border-top-style: none;
+}
+button {
+  text-decoration: none;
+  background-color: none;
+  color: #ffffff;
+  /* border-right: 3px solid rgb(13, 45, 190); */
+  background-color: rgb(59, 40, 128);
+  border-right: 1px solid rgb(13, 45, 190);
+  border-left-style: none;
+  border-bottom-style: none;
+  border-top-style: none;
+}
 li {
   clear: left;
   list-style-type: none;
 }
 li img {
   float: left;
+  /* width: 100%;
+  height: 100%; */
+  width: 35px;
+  height: 35px;
 }
 p {
   float: left;

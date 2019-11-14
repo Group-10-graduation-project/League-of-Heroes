@@ -8,9 +8,11 @@
         v-for="(item, index) in tabList"
         :key="index"
         @click="open(item.id)"
-        style="display: table-cell;text-align: center; "
+        style=" background-image: url(assets/pj.gif); "
       >
         <h1>{{item.name}}</h1>
+        <p>{{item.names}}</p>
+        <img v-bind:src="item.image" style />
       </a>
     </div>
 
@@ -41,20 +43,39 @@ export default {
       default() {
         return [
           {
-            id: -1,
-            name: "PLAY"
-          },
-          {
             id: 0,
-            name: "主页"
+            image: require("../assets/Timg/pic1.png"),
+            names: "无",
+
+            name: "单人/双人"
           },
           {
             id: 1,
-            name: "生涯"
+            image: require("../assets/Timg/pic2.png"),
+            names: "1级",
+
+            name: "荣誉"
           },
           {
             id: 2,
-            name: "商城"
+            image: require("../assets/Timg/pic3.png"),
+            names: "500",
+
+            name: "成就积分"
+          },
+          {
+            id: 3,
+            image: require("../assets/Timg/pic4.png"),
+            names: "无",
+            name: "奖杯"
+          },
+          {
+            id: 0,
+            image: require("../assets/Timg/pic5.png"),
+
+            names: "无",
+
+            name: "旗帜"
           }
         ];
       }
@@ -77,31 +98,29 @@ export default {
 };
 </script>
 <style scoped>
+template {
+  background: url(https://ol.3dmgame.com/uploads/images/raiders/20191016/1571192527_531866.png)
+    repeat;
+    
+}
+.header a img {
+  
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
 .header a {
-  width: 110px;
-  text-decoration: none;
-  background-color: none;
-  color: #FFFFFF;
-  border-right: 3px solid rgb(13, 45, 190);
-  border-left-style: none;
-  border-bottom-style: none;
-  border-top-style: none;
-
-}
-.header a:hover , .header-a-exact-active{
-  background: #3005ca;
-  color: white;
   
-}
-/* 
-.header a:active {
-  
-  color: yellow;
- 
-} */
-
-.header a h1 {
-  font-family: verdana;
+  float: left;
+  width: 100px;
+  height: 90px;
+  margin: 290px 1px 0px 30px;
   text-align: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.header a h1 {
+  font-size: 22px;
 }
 </style>  

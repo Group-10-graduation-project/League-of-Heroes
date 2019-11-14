@@ -159,7 +159,7 @@ export default {
   top: 100px;
   left: 300px;
   width: calc(100% - 600px);
-  height: calc(100% - 200px);
+  height: calc(100% - 600px);
   z-index: 2;
 }
 .btn {
@@ -215,7 +215,7 @@ export default {
   float: left;
   width: 350px;
   height: 140px;
-  background: #fff;
+  background:rgb(27, 25, 25);
   box-shadow: 0 0 1px rgb(8, 8, 8);
   padding: 20px;
   margin-right: 20px;

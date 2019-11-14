@@ -8,6 +8,7 @@
     </div>
     <div class slot="1">
       <the-collect :list="gameCollectList">
+          <Plays class="Plays"></Plays>
       </the-collect>
     </div>
     <div class slot="2">
@@ -17,7 +18,7 @@
     </div>
     <div class slot="3">
       <the-collect :list="gameCollectList">
-       
+         <Plays class="Plays"></Plays>
       </the-collect>
     </div>
   </Play>

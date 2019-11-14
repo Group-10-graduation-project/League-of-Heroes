@@ -15,11 +15,16 @@
         </ui>
       </nav>
     </nav>-->
-    <li style="margin:0;">
-      <img
+    <li style="float:left;	margin:0px 0px 0px 0px;">
+      <!-- <img
         style="float:left; margin:0px -0px -0px -100px; width:710px; height:180px"
         src="https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=3554172822,4073732511&fm=15&gp=0.jpg"
-      />
+      /> -->
+      <nav style="float:left; margin:70px 0px -70px 0; width:710px; height:180px">
+      <h1>十周年纪念 安妮限定皮肤</h1>
+      <li>10月28日开放免费领取 <a href="#">点击前往</a></li>
+
+      </nav>
     </li>
 
     <div>
@@ -32,7 +37,7 @@
         <DaoHang></DaoHang>
       </li>
     </div>
-    <div style="float:left;">
+    <div style="float:left;background-color: rgb(75, 68, 68);">
       <li style="float:left;	margin:0;">
         <a>
           <img
@@ -110,14 +115,15 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .TRs li {
-  height: 34px;
+  /* height: 34px; */
   width: 220px;
   overflow: hidden; /*自动隐藏文字*/
   text-overflow: ellipsis; /*文字隐藏后添加省略号*/
   white-space: nowrap; /*强制不换行*/
-  width: 100%em; /*不允许出现半汉字截断*/
+  width: 100%em; 
+  /* 不允许出现半汉字截断 */
 }
-h1,
+
 h2 {
   font-weight: normal;
 }
@@ -130,7 +136,7 @@ li {
   margin: 0 10px;
 }
 a {
-  color: rgb(0, 0, 0);
+  color: #FFFFFF;
 }
 a:hover {
   color: rgb(2, 56, 233);
