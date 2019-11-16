@@ -9,6 +9,7 @@
         :key="index"
         @click="open(item.id)"
         style=" background-image: url(assets/pj.gif); "
+      
       >
         <h1>{{item.name}}</h1>
         <p>{{item.names}}</p>
@@ -123,4 +124,5 @@ template {
 .header a h1 {
   font-size: 22px;
 }
+a:hover,a:active {font-size:150%;}
 </style>  

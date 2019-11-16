@@ -15,7 +15,7 @@
       </div>
       <div class="" slot="1">
         <the-collect :list="gameCollectList">
-          <shengya class=""></shengya>
+          <shengyas class=""></shengyas>
         </the-collect>
       </div>
       <div class slot="2">

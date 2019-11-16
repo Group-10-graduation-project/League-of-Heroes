@@ -16,13 +16,14 @@ import HelloWorld from '@/components/HelloWorld'
 import Plays from '@/components/Plays'
 import PLAyss from '@/views/PLAyss'
 import index from '@/views/index'
+import shengyas from '@/views/shengyas'
 import shengya from '@/components/shengya'
 
 
 
 
-
 Vue.component('shengya',shengya),
+Vue.component('shengyas',shengyas),
 Vue.component('index',index),
 Vue.component('Play',Play),
 Vue.component('Plays',Plays),
